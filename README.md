@@ -1,7 +1,7 @@
 # Rule-based-chatbot-codesofttask1-
 Build a simple chatbot that responds to user inputs based on  predefined rules. Use if-else statements or pattern matching  techniques to identify user queries and provide appropriate  responses.
-🧠 Smart Assistant Chatbot 🤖
-A beginner-friendly chatbot built with Flask and Vanilla JavaScript, capable of answering common questions related to:
+🧠 Rule based Chatbot 🤖
+A beginner-friendly chatbot built with Flask and  JavaScript, capable of answering common questions related to:
 
 🕐 Time & 📅 Date
 
@@ -40,11 +40,8 @@ Copy code
 
 ⚙️ How to Run
 1. Clone the Repo
-bash
-Copy code
-git clone https://github.com/your-username/smart-assistant-chatbot.git
-cd smart-assistant-chatbot
-2. Set up Environment (Optional but recommended)
+
+2. Set up Environment 
 bash
 Copy code
 python -m venv env
@@ -53,7 +50,9 @@ source env/bin/activate   # or env\\Scripts\\activate on Windows
 bash
 Copy code
 pip install flask requests flask-cors
-4. Add Your API Key 🔑
+<br>
+
+5. Add Your API Key 🔑
 Edit app.py and replace:
 
 python
